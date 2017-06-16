@@ -1,6 +1,8 @@
 %% Object Removal
-% Implemented Efros and Leung’s approach, to for object removal
-% Run from RunObjectRemoval.m
+% Implemented Criminisi’s approach, to for object removal
+% Input: SampleImage, Image, WindowSize, DrawTexture(0 or 1)
+% Output: Object removed image
+% Note: Run from RunObjectRemoval.m
 function [Image]= Removal(SampleImage,Image,WindowSize,DrawTexture)
 [r_new,c_new]=size(Image);
 if(c_new>600)

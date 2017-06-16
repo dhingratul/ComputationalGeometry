@@ -1,5 +1,5 @@
 %% Object Removal
-% Implemented Efros and Leung’s approach, to implement object removal
+% Implemented Criminisi's approach, to implement object removal
 clear all;close all;
 % addpath('/home/dhingratul/Dropbox/Academics/Spring2016/CS-534/HW/HW2/Data');
 WindowSize=5;
