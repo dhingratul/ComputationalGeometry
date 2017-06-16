@@ -1,5 +1,5 @@
 %% Synthesize texture
-% Implemented Efros and Leung’s approach, to synthesize a 200x200 pixel 
+% Implemented Efros and Leung’s approach, to synthesize a 200x200 pixel
 % image for given image with varying WindowSize parameter.
 % Input: SampleTexture, Image
 % Output: Synthesize image
